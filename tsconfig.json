@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "noImplicitThis" : true,
+        "noImplicitReturns": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+
+    },
+    "files": [
+        "types.ts",
+        "mongoApi.ts",
+        "DBInterface.ts",
+        "main.ts",
+        "ParkingPermissionService.ts",
+        "permissionForLawVehicle.ts",
+        "permissionForPublicTransparation.ts",
+        "permissionForGasVehicle.ts",
+        "permissionForSpeciel7DigitsVehicle.ts",
+        "permissionForNormalCar.ts",
+        "testExpectedResults.ts"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "HomeTask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node-dev TESTS/test.ts",
+    "start": "ts-node-dev main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.14",
+    "assert": "^2.0.0",
+    "log-timestamp": "^0.3.0",
+    "mongoose": "^5.9.20",
+    "ocr-space-api": "^1.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.49"
+  }
+}
